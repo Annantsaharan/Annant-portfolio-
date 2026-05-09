@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Primary Meta Tags -->
+    <title>Annant Singh Saharan - Web Developer & UI/UX Designer</title>
+    <meta name="title" content="Annant Singh Saharan - Web Developer & UI/UX Designer">
+    <meta name="description" content="Portfolio of Annant Singh Saharan - Web Developer and UI/UX Designer specializing in creating clean, responsive, and user-friendly websites. Explore my projects, skills, and experience.">
+    <meta name="keywords" content="web developer, UI/UX designer, frontend developer, portfolio, web design, Annant Singh Saharan">
+    <meta name="author" content="Annant Singh Saharan">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/https://github.com/Annantsaharan">
+    <meta property="og:title" content="Annant Singh Saharan - Web Developer & UI/UX Designer">
+    <meta property="og:description" content="Portfolio of Annant Singh Saharan - Web Developer and UI/UX Designer specializing in creating clean, responsive, and user-friendly websites.">
+    <meta property="og:image" content="https://annantsaharan.github.io/og-image.jpg">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://annantsaharan.github.io/">
+    <meta property="twitter:title" content="Annant Singh Saharan - Web Developer & UI/UX Designer">
+    <meta property="twitter:description" content="Portfolio of Annant Singh Saharan - Web Developer and UI/UX Designer specializing in creating clean, responsive, and user-friendly websites.">
+    <meta property="twitter:image" content="https://annantsaharan.github.io/og-image.jpg">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>👨‍💻</text></svg>">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+</head>
+<body class="dark" id="body">
+    <div class="scroll-progress"></div>
+    <header>
+        <nav>
+            <div class="logo">ANNANT</div>
+            <ul>
+                <li><a href="#about"><span>About</span></a></li>
+                <li><a href="#skills"><span>Skills</span></a></li>
+                <li><a href="#experience"><span>Experience</span></a></li>
+                <li><a href="#projects"><span>Projects</span></a></li>
+                <li><a href="#education"><span>Education</span></a></li>
+                <li><a href="#certifications"><span>Certifications</span></a></li>
+                <li><a href="#contact"><span>Contact</span></a></li>
+            </ul>
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle theme"><i class="fas fa-moon"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="fade-in">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="greeting">Hello, I'm</div>
+                <h1 class="typing-text">ANNANT SINGH SAHARAN</h1>
+                <div class="hero-subtitle">
+                    <span class="subtitle-line">Web Developer</span>
+                    <span class="subtitle-separator">|</span>
+                    <span class="subtitle-line">UI/UX Designer</span>
+                </div>
+                <p class="hero-description">Crafting digital experiences with passion and precision</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/annantsaharan" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:annantsaharan@gmail.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="tel:8475829484" aria-label="Phone">
+                        <i class="fas fa-phone"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="fade-in">
+        <div class="section-header">
+            <h2><span class="section-number">01.</span> About Me</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="about-content">
+            <div class="about-text">
+                <p class="lead">I'm a <span class="highlight">Web Developer</span> and <span class="highlight">UI/UX Designer</span> passionate about creating clean, responsive, and user-friendly websites.</p>
+                <p>I enjoy designing seamless interfaces, exploring new technologies, and tackling challenges to build creative and impactful digital experiences. My journey in tech combines creativity with technical expertise, allowing me to bring ideas to life through code and design.</p>
+            </div>
+            <div class="about-image">
+                <div class="image-wrapper">
+                    <img src="profile.png" alt="Annant Singh Saharan" class="profile-image" id="profile-image" onerror="this.onerror=null; this.style.display='none'; document.getElementById('image-placeholder').style.display='flex';">
+                    <div class="image-placeholder" id="image-placeholder" style="display: none;">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="fade-in">
+        <div class="section-header">
+            <h2><span class="section-number">02.</span> Skills</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-card" data-skill="HTML">
+                <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                <div class="skill-name">HTML</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="CSS">
+                <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                <div class="skill-name">CSS</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="JavaScript">
+                <div class="skill-icon"><i class="fab fa-js"></i></div>
+                <div class="skill-name">JavaScript</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="UI/UX">
+                <div class="skill-icon"><i class="fas fa-palette"></i></div>
+                <div class="skill-name">UI/UX Design</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="AWS">
+                <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                <div class="skill-name">AWS</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="60"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Java">
+                <div class="skill-icon"><i class="fab fa-java"></i></div>
+                <div class="skill-name">Java</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Linux">
+                <div class="skill-icon"><i class="fab fa-linux"></i></div>
+                <div class="skill-name">Linux</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="Figma">
+                <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                <div class="skill-name">Figma</div>
+                <div class="skill-level">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="fade-in">
+        <div class="section-header">
+            <h2><span class="section-number">03.</span> Experience</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="experience-item">
+            <h3>Intern Training Internship - Acmegrade</h3>
+            <p>02/2025 – 03/2025</p>
+            <ul>
+                <li>Successfully completed Web Development internship training, demonstrating strong technical skills, problem-solving ability, and commitment to learning.</li>
+                <li>Gained practical experience in front-end and back-end technologies through real-world projects.</li>
+            </ul>
+        </div>
+        <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--accent-blue);">Volunteering & Leadership</h3>
+        <div class="experience-item">
+            <h3>Captain - School Basketball Team</h3>
+            <p>Kendriya Vidyalaya Dogra Lines, Meerut Cantt - 2018 – 2021</p>
+            <ul>
+                <li>Led the school basketball team in inter-school competitions, organized practice sessions, mentored junior players, and built team cohesion.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects" class="fade-in">
+        <div class="section-header">
+            <h2><span class="section-number">04.</span> Projects</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="pizza.png" alt="Ninja Pizza Landing Page" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">UI Design</div>
+                    <h3>Ninja Pizza - Landing Page UI</h3>
+                    <p>Designed a modern restaurant landing page in Figma with intuitive navigation and mouth-watering visuals.</p>
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI Design</span>
+                        <span class="tag">Landing Page</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="payzz.png" alt="Payzz Mobile Payment App" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">Mobile App UI</div>
+                    <h3>Payzz - Mobile Payment App UI</h3>
+                    <p>Created a sleek banking app interface with multiple screens, focusing on user experience and modern design principles.</p>
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">Mobile UI</span>
+                        <span class="tag">Banking</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="air.png" alt="Air Jordan 1 Product Page" class="project-img">
+                    <div class="project-overlay">
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                            <a href="#" target="_blank" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <div class="project-category">E-commerce UI</div>
+                    <h3>Air Jordan 1 - Product Page UI</h3>
+                    <p>Designed a modern, dark-themed product page for Air Jordan 1 sneakers with vibrant orange accents, featuring product details, color selection, and interactive elements.</p>
+                    <div class="project-tags">
+                        <span class="tag">Figma</span>
+                        <span class="tag">UI Design</span>
+                        <span class="tag">E-commerce</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="fade-in">
+        <div class="section-header">
+            <h2><span class="section-number">05.</span> Education</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="education-item">
+            <h3>Bachelor of Computer Applications (Cloud & Cyber Security)</h3>
+            <p>IIMT University, Meerut - 2023 – 2026</p>
+            <p><strong>Relevant Coursework:</strong> Web Development Fundamentals, HTML, CSS, JavaScript, Cloud Computing, Virtualization, Linux Administration, Computer Networks, Cybersecurity Basics, Ethical Hacking.</p>
+        </div>
+        <div class="education-item">
+            <h3>12th Grade (CBSE)</h3>
+            <p>Kendriya Vidyalaya Dogra Lines, Meerut Cantt - 2021 – 2022</p>
+        </div>
+        <div class="education-item">
+            <h3>10th Grade (CBSE)</h3>
+            <p>Kendriya Vidyalaya Dogra Lines, Meerut Cantt - 2019 – 2020</p>
+        </div>
+    </section>
+
+    <section id="certifications" class="fade-in">
+        <div class="section-header">
+            <h2><span class="section-number">06.</span> Certifications</h2>
+            <div class="section-line"></div>
+        </div>
+        <ul>
+            <li>Microsoft Certified: Azure Fundamentals - Microsoft</li>
+            <li>Linux Administration - E & ICT Academy, IIT Kanpur</li>
+            <li>Advance Computer Architecture - NPTEL, IIT Kharagpur</li>
+            <li>Introduction to Cloud - E & ICT Academy, IIT Kanpur</li>
+            <li>Cloud Computing - NPTEL, IIT Kharagpur</li>
+            <li>The Fundamentals of Digital Marketing - Google Digital Garage</li>
+            <li>Cyber Security & Internet Safety - Rendezvous, IIT Delhi</li>
+            <li>Introduction to Internet of Things (IoT) - NPTEL, IIT Kharagpur</li>
+            <li>Career Management Essentials - IBM Skillsbuild</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="fade-in">
+        <div class="section-header">
+            <h2><span class="section-number">07.</span> Get In Touch</h2>
+            <div class="section-line"></div>
+        </div>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p class="contact-intro">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions. Feel free to reach out!</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div class="contact-text">
+                            <h4>Email</h4>
+                            <a href="mailto:annantsaharan@gmail.com">annantsaharan@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-phone"></i></div>
+                        <div class="contact-text">
+                            <h4>Phone</h4>
+                            <a href="tel:8475829484">+91 8475829484</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="contact-text">
+                            <h4>Location</h4>
+                            <p>Meerut Cantt, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fab fa-linkedin"></i></div>
+                        <div class="contact-text">
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/in/annantsaharan" target="_blank">linkedin.com/in/annantsaharan</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- IMPORTANT: Replace YOUR_FORM_ID with your actual Formspree form ID -->
+            <!-- Get your form ID from https://formspree.io after creating a free account -->
+            <form class="contact-form" id="contactForm" action="https://formspree.io/f/mzzypgbp" method="POST">
+                <div id="form-message" class="form-message"></div>
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required minlength="2" maxlength="50">
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" rows="5" required minlength="10" maxlength="1000"></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <input type="hidden" name="_subject" value="New Contact Form Submission from Portfolio">
+                <input type="hidden" name="_next" value="#contact">
+                <input type="hidden" name="submission_date" id="submission_date" value="">
+                <button type="submit" class="btn btn-primary" id="submit-btn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="current-year">2024</span> ANNANT SINGH SAHARAN. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
